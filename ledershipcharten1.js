@@ -215,22 +215,27 @@ function showResults() {
         labels: labels, // Sorted category names
         datasets: [{
             label: 'Score Percentage',
-            backgroundColor: [
-                'rgba(255, 99, 132, 0.2)', 'rgba(255, 159, 64, 0.2)',
-                'rgba(255, 205, 86, 0.2)', 'rgba(75, 192, 192, 0.2)',
-                'rgba(54, 162, 235, 0.2)', 'rgba(153, 102, 255, 0.2)',
-                'rgba(201, 203, 207, 0.2)', 'rgba(251, 13, 149, 0.2)',
-                'rgba(224, 0, 161, 0.2)', 'rgba(74, 63, 42, 0.2)',
-                'rgba(150, 161, 94, 0.2)', 'rgba(128, 145, 214, 0.2)'
-            ],
-            borderColor: [
-                'rgb(255, 99, 132)', 'rgb(255, 159, 64)',
-                'rgb(255, 205, 86)', 'rgb(75, 192, 192)',
-                'rgb(54, 162, 235)', 'rgb(153, 102, 255)',
-                'rgb(201, 203, 207)', 'rgb(251, 13, 149)',
-                'rgb(224, 0, 161)', 'rgb(74, 63, 42)',
-                'rgb(150, 161, 94)', 'rgb(128, 145, 214)'
-            ],
+
+To change the colors from semi-transparent (with an alpha value of 0.2) to solid for both the backgroundColor and borderColor properties, you will need to remove the alpha value from the RGBA colors for backgroundColor and keep the RGB colors for borderColor as they are already solid. Here's how you can do it:
+
+javascript
+Copy code
+backgroundColor: [
+    'rgb(255, 99, 132)', 'rgb(255, 159, 64)',
+    'rgb(255, 205, 86)', 'rgb(75, 192, 192)',
+    'rgb(54, 162, 235)', 'rgb(153, 102, 255)',
+    'rgb(201, 203, 207)', 'rgb(251, 13, 149)',
+    'rgb(224, 0, 161)', 'rgb(74, 63, 42)',
+    'rgb(150, 161, 94)', 'rgb(128, 145, 214)'
+],
+borderColor: [
+    'rgb(255, 99, 132)', 'rgb(255, 159, 64)',
+    'rgb(255, 205, 86)', 'rgb(75, 192, 192)',
+    'rgb(54, 162, 235)', 'rgb(153, 102, 255)',
+    'rgb(201, 203, 207)', 'rgb(251, 13, 149)',
+    'rgb(224, 0, 161)', 'rgb(74, 63, 42)',
+    'rgb(150, 161, 94)', 'rgb(128, 145, 214)'
+],
             borderWidth: 1,
             data: dataPoints // Sorted score percentages
         }]
