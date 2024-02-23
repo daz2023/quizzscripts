@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
+     document.getElementById('ctabutton').style.display = 'none';
      const questions = ["I have high discomfort with conflict and avoid dealing with it","I can be too much of a stickler or perfectionist","I can’t rest and need to be constantly busy","I am usually more anxious and worried than others around me",
 "I take particular pride in being rational and analytical", "I have a tendency towards being moody and melancholy","I measure my self worth mostly through my achievements", "I am a 'pleaser'","I procrastinate a lot", "I can’t help but be a perfectionist","I need to juggle a lot of balls all the time to prevent boredom", "I am hyper-vigilant and always on the lookout for danger",
 "Others have described me as too controlling","I can come across as too analytical and intellectually arrogant","I am often annoyed by flaws and faults with others","Pleasing others and having them like me is very important to me","I avoid dealing with conflicts to a point where they fester and become real problems","Status and my public image are important to me","I am often anxious and highly vigilant","I am very critical of myself","I like things to be very orderly and organised",
@@ -124,7 +125,7 @@ function showResults() {
     questionnaireDiv.style.display = 'none';
     nextBtn.style.display = 'none';
     resultContainer.style.display = 'block';
-    document.getElementById('ctabutton').style.display = 'block'; // Show the CTA div
+    document.getElementById('ctabutton').style.display = 'block'; 
     let resultHTML = '';
     let labels = [];
     let dataPoints = [];
