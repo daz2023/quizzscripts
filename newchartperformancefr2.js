@@ -39,7 +39,7 @@ const questions = ["Je me connais bien et je prends des décisions en toute conf
 "Je fais preuve de compassion envers moi-même lorsque les routines sont caduques.",
 "Je travaille sereinement tout en respectant les délais.",
 "Je participe activement à de nombreuses communautés.",
-"Je respecte mes limites et je dis "non » lorsque c'est nécessaire.",
+"Je respecte mes limites et je dis non lorsque c'est nécessaire.",
 "Je fixe des objectifs quotidiens pour une journée pleine de sens.",
 "J'aborde les nouvelles expériences avec curiosité.",
 "Je ne souffre pas particulièrement d'une maladie physique ou mentale.",
