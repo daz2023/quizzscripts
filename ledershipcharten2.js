@@ -215,11 +215,6 @@ function showResults() {
         labels: labels, // Sorted category names
         datasets: [{
             label: 'Score Percentage',
-
-To change the colors from semi-transparent (with an alpha value of 0.2) to solid for both the backgroundColor and borderColor properties, you will need to remove the alpha value from the RGBA colors for backgroundColor and keep the RGB colors for borderColor as they are already solid. Here's how you can do it:
-
-javascript
-Copy code
 backgroundColor: [
     'rgb(255, 99, 132)', 'rgb(255, 159, 64)',
     'rgb(255, 205, 86)', 'rgb(75, 192, 192)',
