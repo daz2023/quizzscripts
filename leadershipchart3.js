@@ -278,6 +278,12 @@ window.myResultsChart = new Chart(ctx, {
         }
     }
 });
+}
+questionnaireDiv.addEventListener('change', function(event) {
+    if (event.target && event.target.matches('input[type="radio"].response-option')) {
+        handleNextQuestionAutomatically();
+    }
+});
 nextBtn.addEventListener('click', handleNextButton);
 displayQuestion(currentQuestionIndex);
 });
