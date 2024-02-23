@@ -125,7 +125,7 @@ function showResults() {
     questionnaireDiv.style.display = 'none';
     nextBtn.style.display = 'none';
     resultContainer.style.display = 'block';
-    document.getElementById('ctabutton').style.display = 'block'; 
+    document.getElementById('ctabutton').innerHTML = '<a href="your-cta-link.html" class="cta-link">Book a Discovery Call to Elevate Your Mental Fitness</a>';
     let resultHTML = '';
     let labels = [];
     let dataPoints = [];
