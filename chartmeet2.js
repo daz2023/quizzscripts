@@ -124,6 +124,7 @@ function showResults() {
     questionnaireDiv.style.display = 'none';
     nextBtn.style.display = 'none';
     resultContainer.style.display = 'block';
+    document.getElementById('ctaButton').style.display = 'block'; // Show the CTA div
     let resultHTML = '';
     let labels = [];
     let dataPoints = [];
