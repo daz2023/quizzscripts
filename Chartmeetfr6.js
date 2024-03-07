@@ -58,8 +58,7 @@ const categoryDescriptions = [
   "Le Charmeur tente indirectement de gagner l'acceptation et l'affection en aidant, en plaisantant, en secourant ou en flattant les autres. Il perd de vue ses propres besoins et nourrit par la suite beaucoup de ressentiment.",
   "L’Effervescent recherche constamment une plus grande excitation dans sa prochaine activité ou restant toujours occupé. Il est rarement en paix ou satisfait de l'activité actuelle.",
   "Le Perfectionniste recherche la perfection et a besoin d'ordre et d'organisation poussé à l'extrême. Il vit dans l'anxiété en essayant de rendre trop de choses parfaites.",
-  "La Victime est émotionnelle, capricieuse ou lunatique comme un moyen d’attirer l'attention et l'affection. Elle se concentre sur ses émotions, en particulier celles douloureuses. Reconnaître ses saboteurs et les comportements qu’ils génèrent est une prise de consciente importante. Développer ton fitness mental te permet d’entendre sans suivre ces voix intérieures qui sabotent ton bonheur et ta performance. 
-",
+  "La Victime est émotionnelle, capricieuse ou lunatique comme un moyen d’attirer l'attention et l'affection. Elle se concentre sur ses émotions, en particulier celles douloureuses. Reconnaître ses saboteurs et les comportements qu’ils génèrent est une prise de consciente importante. Développer ton fitness mental te permet d’entendre sans suivre ces voix intérieures qui sabotent ton bonheur et ta performance.",
 ];
 
 const responseLabels = ["Fortement en désaccord", "Pas d'accord", "Neutre", "D'accord", "Tout à fait d'accord"];
