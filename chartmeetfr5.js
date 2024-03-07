@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
 "Parfois, j’ai l’impression d’être victime ou martyr.",  
 "Je suis tellement focus sur aider les autres que j’oublie parfois mes propres besoins et je développe du ressentiment.",  
 "Les conditions du travail ou de vie affectent beaucoup mon bien-être.",];
-  
+ 
 const questionToCategoryMap =  {
         0: 0, 8: 0, 16: 0, 27: 0, // Avoider
         12: 1, 14: 1, 20: 1, 29: 1, // Controler
