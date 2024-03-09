@@ -180,6 +180,7 @@ function handleNextButton() {
     if (questionNumberElement) {
         questionNumberElement.style.display = 'none';
     }
+    document.querySelector('.cta.short').style.display = 'block'; 
     let resultHTML = '';
     let labels = [];
     let dataPoints = [];
