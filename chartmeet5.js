@@ -142,6 +142,7 @@ function handleNextButton() {
     if (questionNumberElement) {
         questionNumberElement.style.display = 'none';
     }
+    document.querySelector('.cta.short').style.display = 'flex'; 
     let resultHTML = '';
     let labels = [];
     let dataPoints = [];
