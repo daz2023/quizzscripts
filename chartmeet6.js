@@ -166,7 +166,7 @@ displayFinalResults();
 }
 function displayFinalResults() {
 document.getElementById('user-info-form-container').style.display = 'none';
-    document.querySelector('.cta.short').style.display = 'flex'; 
+    document.querySelector('.ctaquizz.short').style.display = 'flex'; 
     let resultHTML = '';
     let labels = [];
     let dataPoints = [];
